@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | LANCE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+  <div class="auth-container">
+    <!-- Left Welcome Panel -->
+    <div class="auth-left">
+      <!-- Circular Logo -->
+      <div class="logo-circle">
+        <img src="assets/logo.jpg" alt="LANCE Logo">
+      </div>
+      <h2>Join Us</h2>
+      <p>Create your account to book and manage services anytime</p>
+    </div>
+
+    <!-- Right Form Panel -->
+    <div class="auth-right">
+      <a href="index.html" class="back-btn">← Back to Home</a>
+      <h2 class="auth-title">Register</h2>
+      <form action="register-process.php" method="POST" class="auth-form">
+        <label>Full Name</label>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Create a password" required>
+
+        <button type="submit" class="btn primary">Register</button>
+        <p class="auth-extra">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

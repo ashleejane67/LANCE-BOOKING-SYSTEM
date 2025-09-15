@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Dashboard | LANCE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-page">
+
+  <!-- Dashboard Header -->
+  <header class="dashboard-header">
+    <h1>Welcome back, <span>Juan Dela Cruz!</span></h1>
+    <p>Manage your service requests and track ongoing services</p>
+    <div class="dashboard-actions">
+      <a href="book-service.html" class="btn primary">📅 Book New Service</a>
+      <a href="index.html" class="btn secondary">⏻ Logout</a>
+    </div>
+  </header>
+
+  <!-- Dashboard Navigation Tabs -->
+  <nav class="dashboard-tabs">
+    <button class="active">Dashboard</button>
+    <button>Track Service</button>
+    <button>Service History</button>
+  </nav>
+
+  <!-- Stats Section -->
+  <section class="dashboard-stats">
+    <div class="stat-card blue">
+      <span class="icon">📦</span>
+      <h3>Total Requests</h3>
+      <p>1</p>
+    </div>
+    <div class="stat-card green">
+      <span class="icon">✅</span>
+      <h3>Completed</h3>
+      <p>0</p>
+    </div>
+    <div class="stat-card orange">
+      <span class="icon">⏳</span>
+      <h3>In Progress</h3>
+      <p>0</p>
+    </div>
+  </section>
+
+  <!-- Recent Requests -->
+  <section class="dashboard-requests">
+    <h2>Recent Service Requests</h2>
+    <div class="request-card">
+      <div class="request-header">
+        <h3>SR-001</h3>
+        <span class="status pending">PENDING</span>
+        <span class="status urgent">URGENT</span>
+      </div>
+      <p class="request-meta">🛠 Air Conditioner &nbsp; 📅 2024-12-26 &nbsp; ⏰ 10:00 AM - 12:00 PM</p>
+      <p><strong>Problem:</strong> AC unit not cooling properly, making strange noises</p>
+    </div>
+  </section>
+
+</body>
+</html>

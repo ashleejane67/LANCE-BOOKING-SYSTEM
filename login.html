@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Login | LANCE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+  <div class="auth-container">
+    <!-- Left Welcome Panel -->
+    <div class="auth-left">
+      <!-- Circular Logo -->
+      <div class="logo-circle">
+        <img src="assets/logo.jpg" alt="LANCE Logo">
+      </div>
+      <h2>Welcome</h2>
+      <p>Trusted Cooling Solutions in Iligan City</p>
+    </div>
+
+    <!-- Right Form Panel -->
+    <div class="auth-right">
+      <a href="index.html" class="back-btn">← Back to Home</a>
+      <h2 class="auth-title">Login</h2>
+      <form action="login-process.php" method="POST" class="auth-form">
+        <label>Username</label>
+        <input type="text" name="username" placeholder="Enter your username" required>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit" class="btn primary">Login</button>
+        <p class="auth-extra">
+          Don’t have an account? <a href="register.html">Register</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
